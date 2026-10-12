@@ -8,7 +8,7 @@ class Bankaccount {
             System.out.println("Balance:" + balance);
         }
         else{
-            System.out.println("Trying to withdraw,Not enough amount");
+            System.out.println("Trying to withdraw "+amount+"Ksh,Not enough amount");
         }
     }
     synchronized void deposit(int amount){
