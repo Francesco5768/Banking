@@ -1,3 +1,5 @@
+package Banking;
+
 import java.util.Scanner;
 public class Mpesa {
     public static void main(String[] args){
@@ -5,7 +7,7 @@ public class Mpesa {
         Time t=new Time();
         Thread a=new Thread(t);
         Bankaccount account =new Bankaccount();
-        Banking s=new Banking(account);
+        Withdraw s=new Withdraw(account);
         Thread b=new Thread(s);
         a.setDaemon(true);
         a.start();

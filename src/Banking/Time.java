@@ -1,3 +1,5 @@
+package Banking;
+
 class Time implements Runnable{
     @Override
     public void run(){
@@ -7,7 +9,7 @@ class Time implements Runnable{
             } catch (InterruptedException e) {
                 System.out.println("Thread was interrupted");
             }if(i==10){
-                System.out.println("Times up");
+
                 System.exit(0);
             }
         }

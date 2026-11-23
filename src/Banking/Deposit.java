@@ -1,3 +1,5 @@
+package Banking;
+
 class Deposit implements Runnable {
     Bankaccount account;
     Deposit(Bankaccount account){
@@ -5,6 +7,6 @@ class Deposit implements Runnable {
     }
     @Override
     public void run(){
-        account.deposit(7000);
+        account.deposit();
     }
 }
