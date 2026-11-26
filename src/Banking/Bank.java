@@ -16,7 +16,7 @@ public class Bank {
         System.out.println("1=withdraw");
         System.out.println("2=deposit");
         System.out.println("3=checkbalance");
-        System.out.println("Select number(1-3):");
+        System.out.print("Select number(1-3):");
         int number=input.nextInt();
         if(number==1){
             t.start();
